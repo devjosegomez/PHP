@@ -17,5 +17,5 @@
     //Example of Variable interpolation (You do not need a dot to concatenate)
     $user = "José";
     $warning = "you should not be here!";
-    echo "$user, $warning";
+    echo "{$user}, {$warning}";
 ?>
