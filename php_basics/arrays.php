@@ -11,4 +11,14 @@
     ];
     
     var_dump($colors);
+
+    //Example of Associative Arrays (Indicate the desire index you want it to be, they can be numbers or strings as index)
+    $brands = [
+        10 => "Apple",
+        "Coca-cola",
+        3 => "Microsoft",
+        5 => "Oracle",
+        "Coolest" => "Amazon"
+    ];
+    var_dump($brands);
 ?>
