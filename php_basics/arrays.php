@@ -38,4 +38,17 @@
     foreach ($brands as $index => $brand){
         echo("{$index}: $brand ");
     }
+
+    if(empty($articles)){
+        echo("Yup, array is empty");
+    }else{
+        echo("It has some content");
+    }
+
+    $month = 1;
+    while($month <=12){
+        echo("{$month} ");
+        $month++;
+    }
+
 ?>
