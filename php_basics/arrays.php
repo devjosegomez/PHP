@@ -29,4 +29,13 @@
     ];
     var_dump($articles);
 
+    //Going through arrays values
+    foreach ($brands as $brand) {
+        echo("{$brand} ");
+    }
+
+    //Going through arrays indexes and values
+    foreach ($brands as $index => $brand){
+        echo("{$index}: $brand ");
+    }
 ?>
