@@ -45,10 +45,33 @@
         echo("It has some content");
     }
 
+    //Example of while loop
     $month = 1;
     while($month <=12){
         echo("{$month} ");
         $month++;
     }
 
+    //Example of switch case
+    $day = "Tue";
+    switch ($day) {
+        case 'Mon':
+            echo("Monday!");
+            break;
+        case 'Tue':
+            echo("Tuesday!");
+            break;
+        case 'Wed':
+            echo("Wednesday!");
+            break;
+        case 'Thu':
+            echo("Thursday!");
+            break;
+        case 'Fri':
+            echo("Friday!");
+            break; 
+        default:
+            echo("It's weekend");
+            break;
+    }
 ?>
