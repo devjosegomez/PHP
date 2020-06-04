@@ -21,4 +21,12 @@
         "Coolest" => "Amazon"
     ];
     var_dump($brands);
+
+    //Example of multidimentional arrays
+    $articles = [
+        ["title" => "First post", "content" => "This is the first post"],
+        ["title" => "Second post", "content" => "This is the second post"]
+    ];
+    var_dump($articles);
+
 ?>
